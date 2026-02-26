@@ -1341,6 +1341,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 142.24) (xy 138.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edd6800-3f1f-427d-aca8-68b86540379b")
+	)
+	(wire
+		(pts
 			(xy 123.19 152.4) (xy 124.46 152.4)
 		)
 		(stroke
@@ -1361,7 +1371,7 @@
 	)
 	(global_label "XIN"
 		(shape bidirectional)
-		(at 138.43 142.24 180)
+		(at 137.16 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1371,7 +1381,7 @@
 		)
 		(uuid "68e07e08-9545-4ee2-8ce3-13dc348cf555")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.1887 142.24 0)
+			(at 129.9187 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
