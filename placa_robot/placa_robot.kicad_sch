@@ -1050,7 +1050,7 @@
 	)
 	(symbol
 		(lib_id "MiSE:MSP430FR2355TPT")
-		(at 59.69 80.01 0)
+		(at 138.43 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1058,7 +1058,7 @@
 		(dnp no)
 		(uuid "78ba2ac9-6a57-459a-ba34-cbdbc60b510c")
 		(property "Reference" "IC1"
-			(at 81.026 49.276 0)
+			(at 159.766 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1066,7 @@
 			)
 		)
 		(property "Value" "MSP430FR2355TPT"
-			(at 81.026 51.816 0)
+			(at 159.766 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1074,7 @@
 			)
 		)
 		(property "Footprint" "MiSE:QFP50P900X900X160-48N"
-			(at 185.42 134.29 0)
+			(at 264.16 178.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +1084,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0029426.pdf"
-			(at 185.42 234.29 0)
+			(at 264.16 278.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(property "Description" "16-bit Microcontrollers - MCU 24MHz 105C ULP Microcontroller With 32 KB FRAM, 4 KB SRAM, 44 IO, 12-bit ADC, 12-bit DACs, OpAmp/PGA 48-LQFP -40 to 105"
-			(at 59.69 80.01 0)
+			(at 138.43 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1103,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 185.42 434.29 0)
+			(at 264.16 478.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1113,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 185.42 534.29 0)
+			(at 264.16 578.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1123,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MSP430FR2355TPT"
-			(at 185.42 634.29 0)
+			(at 264.16 678.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1133,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-MSP430FR2355TPT"
-			(at 185.42 734.29 0)
+			(at 264.16 778.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1143,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/MSP430FR2355TPT?qs=gTYE2QTfZfTjQOKK%2F%2Fw59A%3D%3D"
-			(at 185.42 834.29 0)
+			(at 264.16 878.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,7 +1153,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MSP430FR2355TPT"
-			(at 185.42 934.29 0)
+			(at 264.16 978.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1163,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/msp430fr2355tpt/texas-instruments?region=nac"
-			(at 185.42 1034.29 0)
+			(at 264.16 1078.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
