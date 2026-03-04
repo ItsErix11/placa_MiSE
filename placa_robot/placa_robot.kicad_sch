@@ -2915,6 +2915,27 @@
 		)
 		(uuid "3d8dbab5-2bb7-4945-8812-1cbdd8fa086d")
 	)
+	(text "Microcontrolador | si\nLCDs             | no\nCuarzo           | si️\nLDR              | si\nJoystick          | si\nWIFI              | no\nconexion con robot       | no\ndetector de programación | no\nasignación de los pines  | no\n"
+		(exclude_from_sim no)
+		(at 233.934 263.144 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "43369481-0cde-4c21-bef0-0f34c49031cf")
+	)
+	(text "Copiado del campus,\nmirar pa q sirven A y K\n"
+		(exclude_from_sim no)
+		(at 91.44 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48bce7da-a138-4219-bd4a-481220bf23ee")
+	)
 	(text "Estos dos\nvan a GPIOs"
 		(exclude_from_sim no)
 		(at 110.744 84.836 0)
@@ -2965,6 +2986,16 @@
 		)
 		(uuid "c9ecb16d-e96c-4945-96f8-c1fb3c3f030a")
 	)
+	(text "Especificado en la \nsesion 1 de practicas"
+		(exclude_from_sim no)
+		(at 92.71 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8875de6-956e-42ae-8f83-deff782f8e56")
+	)
 	(text "Cristal"
 		(exclude_from_sim no)
 		(at 91.186 135.89 0)
@@ -2974,6 +3005,26 @@
 			)
 		)
 		(uuid "eddfee68-4655-4db6-93fa-9fe95ccb77f2")
+	)
+	(text "Asignar pines al final"
+		(exclude_from_sim no)
+		(at 311.404 164.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0cb85db-407d-47f0-987d-2f113b85a207")
+	)
+	(text "Asignar pines al final"
+		(exclude_from_sim no)
+		(at 110.236 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f96522e5-eb42-41aa-9ac3-d97be0bb842a")
 	)
 	(junction
 		(at 73.66 154.94)
