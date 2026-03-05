@@ -2214,7 +2214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 86.36 44.4499 0)
 			(effects
 				(font
@@ -2681,7 +2681,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55369dd8-1e37-4725-a773-0e61d9296a46")
 		(property "Reference" "R1"
 			(at 86.36 86.3599 0)
@@ -2692,8 +2691,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 86.36 88.8999 0)
+		(property "Value" "1K"
+			(at 86.36 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 86.36 64.7699 0)
 			(effects
 				(font
