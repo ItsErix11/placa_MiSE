@@ -3435,7 +3435,7 @@
 	)
 	(text "Microcontrolador | si\nLCDs             | no\nCuarzo           | si️\nLDR              | si\nSensor Ultraso   | No\nJoystick          | si\nWIFI              | Si\nconexion con robot       | no\ndetector de programación | no\nasignación de los pines  | no\n"
 		(exclude_from_sim no)
-		(at 233.934 263.144 0)
+		(at 330.2 228.854 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3494,9 +3494,19 @@
 		)
 		(uuid "97c91236-bd1e-49bb-b2da-c9e99898f4bb")
 	)
+	(text "Asignar pines al final\nGPIOs sin interrupcion"
+		(exclude_from_sim no)
+		(at 245.872 264.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98a4c4fc-b091-4302-9616-100aa2e33c69")
+	)
 	(text "PinPad para Robot"
 		(exclude_from_sim no)
-		(at 171.45 24.13 0)
+		(at 219.71 232.156 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3575,10 +3585,28 @@
 		(uuid "1ed4ac27-ae3c-43f7-bec9-d43918dedb04")
 	)
 	(junction
+		(at 137.16 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b21223e-9bea-4c8b-9e3c-ebb2584d91bf")
+	)
+	(junction
 		(at 82.55 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fbf0c59-9ab0-4893-a487-0a364f1cd8ec")
+	)
+	(junction
+		(at 203.2 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b8840cc-e008-430f-abbb-8b6aaad18455")
+	)
+	(junction
+		(at 189.23 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70def83f-8776-4370-aac2-e1851419377b")
 	)
 	(junction
 		(at 87.63 67.31)
@@ -3597,6 +3625,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83c0cceb-0fa7-44d3-9ea9-0658bcb9dedc")
+	)
+	(junction
+		(at 231.14 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8af4370b-f95f-4fd8-86b2-498f80f62aec")
 	)
 	(junction
 		(at 88.9 142.24)
@@ -3641,12 +3675,24 @@
 		(uuid "690279d9-9f9e-4af1-8565-59353a0eb19e")
 	)
 	(no_connect
+		(at 219.71 246.38)
+		(uuid "a1e76946-67f3-4fcc-959f-45dd5727640a")
+	)
+	(no_connect
+		(at 212.09 259.08)
+		(uuid "bcc26ef4-972e-4272-b924-5ddd1e03e85d")
+	)
+	(no_connect
 		(at 334.01 92.71)
 		(uuid "cb65b18f-16e6-49c8-bdd7-3dec6c2292a9")
 	)
 	(no_connect
 		(at 96.52 83.82)
 		(uuid "ec2a3845-118f-45a9-810e-5dd07e1ea66a")
+	)
+	(no_connect
+		(at 217.17 246.38)
+		(uuid "f60e8186-898a-471f-b4d1-52a5d18a1888")
 	)
 	(wire
 		(pts
@@ -3760,6 +3806,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 238.76) (xy 214.63 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3bb065-33df-41ed-b409-6e8a4731a249")
+	)
+	(wire
+		(pts
+			(xy 217.17 259.08) (xy 217.17 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579d4ff0-c98a-4a88-a52b-7691dbaf89e6")
+	)
+	(wire
+		(pts
 			(xy 137.16 152.4) (xy 137.16 238.76)
 		)
 		(stroke
@@ -3840,6 +3906,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 259.08) (xy 231.14 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0a66ba-4747-4c7f-ab8e-c62021b400a2")
+	)
+	(wire
+		(pts
 			(xy 267.97 147.32) (xy 275.59 147.32)
 		)
 		(stroke
@@ -3870,6 +3946,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 246.38) (xy 212.09 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79de4368-33c8-4423-babe-86ddbc921a16")
+	)
+	(wire
+		(pts
 			(xy 138.43 142.24) (xy 88.9 142.24)
 		)
 		(stroke
@@ -3887,6 +3973,16 @@
 			(type default)
 		)
 		(uuid "7c033427-f987-40f6-b0cd-c932aab9f806")
+	)
+	(wire
+		(pts
+			(xy 231.14 246.38) (xy 231.14 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5b75d5-9562-468f-b51f-89298da06a10")
 	)
 	(wire
 		(pts
@@ -3950,7 +4046,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 238.76) (xy 129.54 238.76)
+			(xy 219.71 259.08) (xy 219.71 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8edf9251-da11-4624-bae8-236e0e36c3b2")
+	)
+	(wire
+		(pts
+			(xy 129.54 238.76) (xy 137.16 238.76)
 		)
 		(stroke
 			(width 0)
@@ -3967,6 +4073,16 @@
 			(type default)
 		)
 		(uuid "9369ad9a-9060-4874-8f96-f2c1f2168cd6")
+	)
+	(wire
+		(pts
+			(xy 214.63 246.38) (xy 214.63 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b316470-714d-47e3-9ada-eb89edb193c3")
 	)
 	(wire
 		(pts
@@ -4100,6 +4216,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 246.38) (xy 203.2 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab2c98c-4eab-4e1f-a4c0-a2a6fce49cd2")
+	)
+	(wire
+		(pts
 			(xy 96.52 67.31) (xy 96.52 68.58)
 		)
 		(stroke
@@ -4160,6 +4286,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 246.38) (xy 203.2 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2b7722-a93c-44e0-91c1-3b82aadf2d75")
+	)
+	(wire
+		(pts
 			(xy 58.42 219.71) (xy 58.42 227.33)
 		)
 		(stroke
@@ -4190,6 +4326,26 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 259.08) (xy 214.63 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31b52fe-8c12-4470-baf5-c555a2d6e296")
+	)
+	(wire
+		(pts
+			(xy 203.2 259.08) (xy 209.55 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f899b0-8038-4a88-8b9f-23f828f048dc")
+	)
+	(wire
+		(pts
 			(xy 73.66 154.94) (xy 73.66 160.02)
 		)
 		(stroke
@@ -4197,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "e5b04c92-31e9-4719-8d64-8b0ca7812686")
+	)
+	(wire
+		(pts
+			(xy 222.25 259.08) (xy 222.25 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c6e3ef-e86f-4498-a948-ff98ec497447")
 	)
 	(wire
 		(pts
@@ -4278,6 +4444,48 @@
 		)
 		(uuid "f33c9ed9-ea40-48d0-828d-ce2068f77219")
 	)
+	(wire
+		(pts
+			(xy 224.79 246.38) (xy 231.14 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9ef660-e4e5-4606-9845-69fcac1760e9")
+	)
+	(wire
+		(pts
+			(xy 189.23 241.3) (xy 212.09 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe18694d-1921-4764-9bd0-e7eb4a8b94a0")
+	)
+	(global_label "P8"
+		(shape input)
+		(at 243.84 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bf1b868-2c1f-49f3-adf6-aa915b0c7db8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3047 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Joystick_Left"
 		(shape input)
 		(at 294.64 140.97 0)
@@ -4296,6 +4504,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0"
+		(shape input)
+		(at 243.84 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e870fc4-6495-41ad-9848-87c1c126364c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3047 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0"
+		(shape input)
+		(at 222.25 261.62 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35dc6e51-fb86-4bfe-92ca-6e5b95783792")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 267.0847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4432,6 +4684,28 @@
 			)
 		)
 	)
+	(global_label "P1"
+		(shape input)
+		(at 243.84 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e914cd6-4130-431c-bc4d-f0f885cc483e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3047 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Joystick_Right"
 		(shape input)
 		(at 294.64 135.89 0)
@@ -4476,6 +4750,50 @@
 			)
 		)
 	)
+	(global_label "P8"
+		(shape input)
+		(at 214.63 261.62 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af0a20ef-d973-43a8-b5bd-32d626bfa015")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 267.0847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 243.84 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2eecdd7-168f-432b-9982-40b19b63eb34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3047 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST(LCD)"
 		(shape bidirectional)
 		(at 69.85 219.71 270)
@@ -4489,6 +4807,28 @@
 		(uuid "c1da3bf8-5b23-4581-9964-6d3b3513c313")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.85 232.5151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 217.17 261.62 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c45eb3c4-d487-4b7d-af03-3102d1cd0f96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.17 267.0847 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,6 +4878,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 219.71 261.62 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f99aa70e-0549-4abd-aed7-45622cd63b03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 267.0847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6428,110 +6790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MiSE:conn_DFrobot")
-		(at 170.18 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2604ee2-2ea5-41f8-88a1-7443ae055a2f")
-		(property "Reference" "J1"
-			(at 171.45 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "conn_DFrobot"
-			(at 171.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MiSE:conn_DFrobot"
-			(at 171.45 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "425e81e7-a5e8-46d4-bd8c-f825346dd00c")
-		)
-		(pin "12"
-			(uuid "905de78a-5d2f-437b-bd83-edf81ec99fd3")
-		)
-		(pin "1"
-			(uuid "11142b40-46b4-482b-b133-24725961de2d")
-		)
-		(pin "3"
-			(uuid "f82efcf2-d762-4ef5-8504-7935837167ce")
-		)
-		(pin "2"
-			(uuid "39faa303-a43e-4acc-8fa7-f55f7db32cb0")
-		)
-		(pin "5"
-			(uuid "9afb0772-cdd3-4424-82ca-42a6cfd18847")
-		)
-		(pin "7"
-			(uuid "a000c096-7e1f-40e5-ad17-22fd136bfeb0")
-		)
-		(pin "11"
-			(uuid "f03c5132-a05c-4b41-b10a-56f8d67e23fe")
-		)
-		(pin "4"
-			(uuid "3e10a724-8b02-4905-9ff5-d36a66381844")
-		)
-		(pin "13"
-			(uuid "a12045e3-ecbc-43bc-bd84-9a22985b8859")
-		)
-		(pin "6"
-			(uuid "088840d1-27d6-4aa2-9e33-bb1747416107")
-		)
-		(pin "8"
-			(uuid "09da21b0-3573-4ba3-8d28-7780f46eb764")
-		)
-		(pin "10"
-			(uuid "98bb4279-8e22-4616-b6e9-bbe460b19b5b")
-		)
-		(pin "14"
-			(uuid "4642c12b-3b75-41f4-b08b-9d4d6448bdae")
-		)
-		(instances
-			(project ""
-				(path "/8aa50d15-d96a-41b3-aa5f-664bff39212d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 80.01 154.94 90)
 		(unit 1)
@@ -6730,6 +6988,112 @@
 			(project "placa_robot"
 				(path "/8aa50d15-d96a-41b3-aa5f-664bff39212d"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MiSE:conn_DFrobot")
+		(at 217.17 251.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d030846e-f124-4654-a5b2-4960cdb071b9")
+		(property "Reference" "J4"
+			(at 207.01 251.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "conn_DFrobot"
+			(at 207.01 253.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MiSE:conn_DFrobot"
+			(at 229.87 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "b76c5812-a73f-414d-8b48-45536eeb3ebc")
+		)
+		(pin "12"
+			(uuid "28f16e52-c096-454e-b8f8-d3f4b0c3054b")
+		)
+		(pin "1"
+			(uuid "b117e847-893e-488d-8c82-ee19965f88e1")
+		)
+		(pin "3"
+			(uuid "b6fb9c7c-a000-4bf7-b8f6-b8476b9cf9bd")
+		)
+		(pin "2"
+			(uuid "4b91dd81-4c07-4d5e-a2b8-fbf8a820385f")
+		)
+		(pin "5"
+			(uuid "0ed86d1c-3733-45fd-8293-3a839b8a7a9b")
+		)
+		(pin "7"
+			(uuid "27789f78-e21f-4ae4-8625-c71ce287a1be")
+		)
+		(pin "11"
+			(uuid "12edbc7b-94f7-44f9-8d7c-a0c327543ae0")
+		)
+		(pin "4"
+			(uuid "c0d39704-277c-40fd-92f3-c65d87b220f8")
+		)
+		(pin "13"
+			(uuid "c3e789ae-d7a8-4192-a46a-25787a80045b")
+		)
+		(pin "6"
+			(uuid "58533a6b-c86f-4c42-b36b-8d482e435d8c")
+		)
+		(pin "8"
+			(uuid "c453be12-72f0-4efb-8038-9b8c214f98df")
+		)
+		(pin "10"
+			(uuid "e0ed3ce3-4814-428c-8dbb-e79dcc2fa825")
+		)
+		(pin "14"
+			(uuid "6a0cab99-2e9b-455a-9004-47d6f5c78201")
+		)
+		(instances
+			(project "placa_robot"
+				(path "/8aa50d15-d96a-41b3-aa5f-664bff39212d"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7000,6 +7364,138 @@
 			(project "placa_robot"
 				(path "/8aa50d15-d96a-41b3-aa5f-664bff39212d"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f66a79de-b3c7-4e49-b029-cbf25875f029")
+		(property "Reference" "#PWR05"
+			(at 203.2 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f41efc8e-7431-4f08-84a7-ef5e0d512b9e")
+		)
+		(instances
+			(project "placa_robot"
+				(path "/8aa50d15-d96a-41b3-aa5f-664bff39212d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 231.14 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6bb2fcb-3a74-4cf4-b4fe-982c643adc1a")
+		(property "Reference" "#PWR023"
+			(at 231.14 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 231.14 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 231.14 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85200252-1bf0-41cf-8c67-b24fa0b84c3b")
+		)
+		(instances
+			(project "placa_robot"
+				(path "/8aa50d15-d96a-41b3-aa5f-664bff39212d"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
