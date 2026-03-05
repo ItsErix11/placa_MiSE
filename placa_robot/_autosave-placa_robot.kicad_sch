@@ -3233,7 +3233,7 @@
 		)
 		(uuid "3d8dbab5-2bb7-4945-8812-1cbdd8fa086d")
 	)
-	(text "Microcontrolador | si\nLCDs             | no\nCuarzo           | si️\nLDR              | si\nJoystick          | si\nWIFI              | no\nconexion con robot       | no\ndetector de programación | no\nasignación de los pines  | no\n"
+	(text "Microcontrolador | si\nLCDs             | no\nCuarzo           | si️\nLDR              | si\nSensor Ultraso   | No\nJoystick          | si\nWIFI              | Si\nconexion con robot       | no\ndetector de programación | no\nasignación de los pines  | no\n"
 		(exclude_from_sim no)
 		(at 233.934 263.144 0)
 		(effects
