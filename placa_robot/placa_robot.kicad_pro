@@ -363,6 +363,15 @@
       "Net-(S2-2')": [
         "senyal"
       ],
+      "Net-(U1A--)": [
+        "senyal"
+      ],
+      "Net-(U1B-+)": [
+        "senyal"
+      ],
+      "Net-(U1C--)": [
+        "senyal"
+      ],
       "Net-(U3A-+)": [
         "senyal"
       ],
